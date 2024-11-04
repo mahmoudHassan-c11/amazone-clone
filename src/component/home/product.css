@@ -1,0 +1,80 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  z-index: 1;
+  padding: 10px 15px;
+  max-height: 470px;
+  justify-content: flex-end;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.box:hover {
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.box img {
+  width: 50%;
+  max-height: 120px;
+  margin: 10px auto;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.box:hover img {
+  transform: scale(1.09);
+  -webkit-transform: scale(1.09);
+  -moz-transform: scale(1.09);
+  -ms-transform: scale(1.09);
+  -o-transform: scale(1.09);
+}
+
+.box .description {
+  max-width: 85%;
+  max-height: 70px;
+  overflow: hidden;
+}
+
+.box .rating i {
+  color: #ffa41c;
+  margin-bottom: 50px;
+}
+
+.box button.add-cart {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  padding: 5px 15px;
+  text-align: center;
+  background-color: #ffa41c;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.box button.add-cart:active {
+  transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+}

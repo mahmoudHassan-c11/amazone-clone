@@ -1,0 +1,30 @@
+.login form {
+  border: 1px solid #d8d8d8;
+}
+
+.login form label {
+  font-weight: bold;
+}
+.login form input {
+  border: 1px solid #6d6b6b79;
+  padding: 8px 5px;
+}
+.login form input:focus {
+  outline: none;
+}
+
+.login form button.button-sign {
+  margin-top: 5px;
+  width: 100%;
+  background-color: #cd9042;
+  padding: 6px 0;
+}
+.login form button.button-create {
+  margin-top: 5px;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 6px 0;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  margin-top: 10px;
+}

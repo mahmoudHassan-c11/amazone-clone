@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kfqgfv');
+  src:  url('fonts/icomoon.eot?kfqgfv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kfqgfv') format('truetype'),
+    url('fonts/icomoon.woff?kfqgfv') format('woff'),
+    url('fonts/icomoon.svg?kfqgfv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-up:before {
+  content: "\e904";
+}
+.icon-menu:before {
+  content: "\e900";
+}
+.icon-search:before {
+  content: "\e907";
+}
+.icon-star:before {
+  content: "\e901";
+}
+.icon-shopping-cart:before {
+  content: "\f07a";
+}
+.icon-moon-o:before {
+  content: "\f186";
+}
+.icon-close1:before {
+  content: "\e902";
+}
+.icon-sun:before {
+  content: "\e9d4";
+}
